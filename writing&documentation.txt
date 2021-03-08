@@ -1,0 +1,17 @@
+Amazon Connect phone number to test the environment: +4420 8068 6679
+
+Although I am familiar with PYthon I decided to use nodejs as I discovered that nodejs is the go to choice for Lambda. I used Youtube tutorials to navigate my way through.
+
+I noticed the subtle differences such as "else if" is used in nodejs and python uses "elif" so I learnt a thing or two along the way.
+
+I used loop method because its simple and gets the job done and lops thorugh the number.
+
+I had permissions issues with the function so I granted full access to DynamoDB by editing policy and granting all resources - what I should have done is specified the function and the table its gonna connect to
+
+I had some issues with error messages when testing the phone line - didnt have anything that would handle error messages and the call would just disconnect randomly.
+
+I had Amazon connect prompts issue to read out the vanity numbers - it did not read out the text successfully and it is an issue I was not able to resolve.
+
+shortcuts - prompts - we didnt give the best messages due to time constraints (reason: Family bereavement)
+
+What I would do differently, I would put in error handling to identify my errors and better my practice.
